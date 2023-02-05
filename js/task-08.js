@@ -23,7 +23,7 @@ function onFormSubmit(event) {
     console.log(formData);
 
     if (email ==='' || password ===''){
-        return alert('Please fill in all fields');
+        return alert('Please fill in all the fields!');
     }
     event.currentTarget.reset();
 }
